@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" >
 <parameter name="MyBrowser" value="Mozila"></parameter>
-  <test thread-count="5" name="Test" parallel="classes">    //asdf
+  <test thread-count="5" name="Test" parallel="classes">    //asdf123
     <classes>
       <class name="MyTestNG.Sept27_DependsOnGroup"/>
        <class name="MyTestNG.Sept29_DP"/>
